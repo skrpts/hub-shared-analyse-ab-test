@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "35598607-cf08-47fb-8dac-39c69d2a6e85"
+name: "analyse-ab-test"
+display_name: "Analyse A/B Test"
+description: "Interprets experiment results and recommends winning variants"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-analyse-ab-test"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
