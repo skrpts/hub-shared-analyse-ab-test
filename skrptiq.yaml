@@ -3,7 +3,7 @@ id: "1e7fce17-e118-4d00-9e90-2a18c58ae212"
 name: "analyse-ab-test"
 display_name: "Analyse A/B Test"
 description: "Interprets experiment results and recommends winning variants"
-version: "1.0.1"
+version: "1.0.2"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -14,6 +14,8 @@ category: "shared"
 tags:
   - "shared"
   - "prompt"
+dependencies: []
+
 contents:
   skills: 0
   prompts: 1
