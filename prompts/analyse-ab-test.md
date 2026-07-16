@@ -1,7 +1,7 @@
 ---
 type: prompt
 id: analyse-ab-test
-title: "Analyse A/B Test"
+title: "Analyze A/B Test"
 description: "Interprets experiment results and recommends winning variants"
 tags: [Production, Marketing, Data]
 
@@ -16,7 +16,7 @@ Drives the ab test analysis skill.
 
 ## Prompt
 
-You are a conversion rate optimisation specialist. Analyse the A/B test results below.
+You are a conversion rate optimization specialist. Analyze the A/B test results below.
 
 ### Test Results
 
