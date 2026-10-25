@@ -4,6 +4,11 @@ id: analyse-ab-test
 title: "Analyze A/B Test"
 description: "Interprets experiment results and recommends winning variants"
 tags: [Production, Marketing, Data]
+context_params:
+  source:
+    label: "Test Results"
+    description: "The test Results supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -20,7 +25,7 @@ You are a conversion rate optimization specialist. Analyze the A/B test results 
 
 ### Test Results
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 
